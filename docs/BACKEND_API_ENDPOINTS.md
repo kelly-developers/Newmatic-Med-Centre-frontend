@@ -4,7 +4,7 @@ This document outlines all the required Spring Boot backend endpoints for the Ph
 
 ## Base URL
 ```
-https://pharma-care-backend-hdyf.onrender.com
+https://newmatic-med-centre-backend.onrender.com
 ```
 
 ## Authentication

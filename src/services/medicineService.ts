@@ -247,7 +247,7 @@ async getAll(params?: {
     formData.append('image', file);
     
     const token = sessionStorage.getItem('auth_token');
-    const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://pharma-care-backend-hdyf.onrender.com';
+    const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://newmatic-med-centre-backend.onrender.com';
     
     const response = await fetch(`${API_BASE_URL}/medicines/${medicineId}/image`, {
       method: 'POST',
